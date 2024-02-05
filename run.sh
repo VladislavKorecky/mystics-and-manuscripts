@@ -1,1 +1,1 @@
-python3 -m mystics_and_manuscripts.main
+python3 -m mystics_and_manuscripts.main || python -m mystics_and_manuscripts.main
