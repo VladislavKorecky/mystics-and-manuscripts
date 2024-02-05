@@ -1,0 +1,117 @@
+# Name of your level.
+# string
+name: My awesome level
+# Message setting the context of your level.
+# string, optional
+introduction: You're a boy lost in a forest.
+
+# List of all places in your level.
+# list[object]
+places:
+    # Unique number identifier for each place.
+    # int
+  - id: 0
+    # Name of your place/room.
+    # string
+    name: My bedroom
+    # Your place's description.
+    # string
+    description: >
+      I have a cozy bed.
+      Only the ghosts under my bed ruin my sleep.
+    # Another way you can define a room description. Each option is as likely.
+    # list[string]
+    description:
+      - I go to sleep, but the closet monster is bothering me again.
+      - I'm almost asleep, but then I see it. Red eyes looking right at me.
+    # If this is one of the starting places.
+    # bool, optional, default: False
+    start: False
+    # Should the game end here? And how? Options are: "win", "loss", "draw" and null when the game doesn't end
+    # string, optional, default: null
+    end: "win"
+    # Place description that only appears the first time a player enters.
+    # string, optional
+    first-time-description: Finally home!
+    # List of items that will be added to the player's inventory upon entering this room.
+    # list[str], optional, default: []
+    items: [ "Teddy bear" ]
+    # An achievement this player gets for discovering this place.
+    # object, optional, default: None
+    achievement: 0
+
+# Paths between your places.
+# list[object]
+paths:
+    # ID's of the places the path connects. If more than two are specified, the places are chosen at random.
+    # list[int]
+  - places: [ 0, 1 ]
+    # Name of your path. The name is displayed in the options of the rooms it connects.
+    # string, optional, default: Unnamed path
+    name: Door
+    # Description of your path.
+    # string, optional, default: You walk along a path.
+    description: You're too scared to stay. You quickly run to the door.
+    # Another way you can define a path description. Each option is as likely.
+    # list[string], optional, default: You walk along a path.
+    description:
+      - You slowly walk to the door to not disturb the monsters.
+      - You go through the door.
+    # If the path is bidirectional or only goes in one way.
+    # bool, optional, default: False
+    one-way: True
+    # IDs of places where the one-way path starts. Only applies when "one-way" is set to True.
+    # list[int]
+    one-way-start: [ 0 ]
+    # Path description that only appears the first time a player uses it.
+    # string, optional
+    first-time-description: >
+      You run to the door, but you trip and fall.
+    # Sometimes, you don't want to reveal to the player that a path leads back to where they came from.
+    # For such occasions, you can disable the "(Go back)" hint using this option.
+    # bool, optional, default: False
+    disable-go-back: True
+    # A list of items required to use this path.
+    # list[str], optional, default: []
+    required-items: [ "Bedroom key", "Courage" ]
+    # The path cannot be used if the player has any of these items.
+    # list[str], optional, default: []
+    forbidden-items: [ "Weapon" ]
+    # Determines if a hint should appear in case of missing or forbidden items.
+    # bool, optional, default: False
+    items-hint: True
+    # ID of an achievement this player gets awarded for discovering this path.
+    # int, optional, default: None
+    achievement: 1
+    # Your custom Python function to call before this room gets handled.
+    # string, optional, default: None
+    call-before: setup_room
+    # Your custom Python function to call after this room gets handled.
+    # string, optional, default: None
+    call-after: monster_attack
+
+# Your custom actions defined in level.py script
+# list[object], optional, default: []
+actions:
+    # Name of your action. It will be displayed along paths as options.
+    # string
+  - name: Try this
+    # Places where your action should be available.
+    # list[int]
+    places: [ 0 ]
+    # Name of your Python function.
+    # string
+    function: action
+
+# List of your in-game achievements.
+# list[object], optional, default: []
+achievements:
+    # Unique ID for this achievement.
+    # int
+  - id: 0
+    # Name of the achievement.
+    # string
+    name: Pooped my pants
+    # Description of the achievement.
+    # string
+    description: Discover that there are monsters in your room.

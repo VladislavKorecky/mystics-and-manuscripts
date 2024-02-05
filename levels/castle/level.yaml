@@ -1,0 +1,1164 @@
+name: The Abandoned Castle of Duskwyrm
+introduction: >
+  Under the cloak of a starry night, you, a daring young explorer, step into the ominous shadow of an ancient,
+  abandoned castle. It is quiet; you can only hear the soft wind and hooking owls. Your heart trembles in excitement
+  and fear as you embark on your quest. This castle was once a prosperous place before it got sieged and raided. Its
+  riches were taken, but the local legends say the castle's treasure is still hidden somewhere inside.
+
+places:
+  - id: 0
+    name: Dirt Road
+    description: >
+      Your journey begins here. A car trip to the castle's gates wasn't even a few minutes. The rocky road was
+      challenging for your old sedan, but it seems fine after a small inspection. You stop the engine, put the keys in
+      your pocket and grab your stuff.
+    start: True
+
+  - id: 1
+    name: Main Entrance
+    description: >
+      You're at the main entrance of the castle. That is the best time to look up and admire it's beauty.
+
+  - id: 27
+    name: Southwest corner
+    description: >
+      You're standing at the southwest corner of the castle. You wouldn't be standing here, but you've noticed a
+      staircase going underground.
+
+  - id: 2
+    name: The Dungeon
+    description: >
+      You discover a small, empty room with a gaping hole in the middle. As you look around, you realize that you are
+      in a dungeon. The unlucky people thrown down there either starved to death or died from dehydration. But as you
+      look into the deep abyss, your curious mind can only think of one thing: jump down.
+
+  - id: 3
+    name: Bottom of the Hole
+    description: >
+      As you hit the ground, your legs give way, and you smash your head into the hard stone bricks. Your vision blurs,
+      and you see a glimpse of blood running from your head. Then, the world goes black. Forever.
+    end: "loss"
+
+  - id: 4
+    name: Bottom of the Hole
+    description: >
+      To ease your fall, you mildly relax your body and cover your head. Once you hit the ground, your body goes
+      into a roll, and your back hits the stone brick wall. The fall was harsh, and your whole body hurts,
+      but you survived. You almost cry from the immense pain, but you get up and fight for your life.
+
+  - id: 5
+    name: Entrance Hall
+    description: >
+      The Entrance Hall is a spacious room where kings, queens, and noble guests enter the castle. The hall has an
+      eerie, disturbing silence. Although not luxurious, the room had a nice, modest decor. Not to bury yourself deep
+      into your thoughts, you begin to walk again, filling the hall with the echos of your steps on the marble floor.
+
+  - id: 6
+    name: Courtyard
+    description: >
+      You're in the courtyard. Here, the crowd gathers to hear important events, defend the castle, or watch an
+      execution. Truly a place of rich history. The castle wall is extended by a semi-circle resembling a rotunda or
+      another religious building. On the opposite side are the gallows, where thieves, traitors, and murderers meet
+      their fate.
+
+  - id: 7
+    name: Executioner's Gallows
+    description: You're standing on the gallows. The wind feels stronger and colder.
+
+  - id: 8
+    name: The Rope
+    description: ...
+    end: "loss"
+    achievement-id: 0
+
+  - id: 9
+    name: Catacombs
+    first-time-description: >
+      You can't see anything. The full moon allowed for at least a glimpse of light, but now, you're in the dark.
+      Luckily, you've come prepared. You reach for the flashlight in your small backpack and turn it on. You are in a
+      small underground room surrounded by brick walls. Once in a while, you witness a water drop fall from the ceiling,
+      forming small puddles on the concrete floor. You immediately recognize that you are in the catacombs. You've read
+      on the internet that these systems of tunnels can get pretty big. Hope you don't get lost.
+    description: >
+      You're back where you started. The hole in the wall immediately informs you that you've already been
+      here before. Here is where you entered the catacombs and escaped the dungeon pit.
+    achievement-id: 1
+
+  - id: 10
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  - id: 11
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  - id: 12
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  # Trap
+  - id: 13
+    name: Forgotten Room
+    description: >
+      You've been here for who know how long. It could be a few days or even a week. The convoluted halls seem
+      never-ending, and you think you're walking in circles. Dehydrated, hungry, and hardly sane, you sit down after
+      a long walk. Your vision blurs, and you can't get up. For the last time, you think of your loved ones as your soul
+      drifts away.
+    end: "loss"
+    achievement-id: 2
+
+  - id: 14
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  - id: 15
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  - id: 16
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  # Trap
+  - id: 17
+    name: Forgotten Room
+    description: >
+      Busy trying to figure out where you are, you don't notice that the floor is ending. When you realize what's going
+      on, it is too late. Your body falls uncontrollably into a void. You hear your bones crack and go unconscious.
+    end: "loss"
+    achievement-id: 2
+
+  - id: 18
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  - id: 19
+    name: Forgotten Room
+    description: Looks like a dead end.
+
+  - id: 20
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  # Catacombs escape
+  - id: 21
+    name: Forgotten Room
+    description: >
+      At first, this room feels like all the other ones. But then you notice something strange. It almost seems like
+      there is a trapdoor on the ceiling. At first, you think that you are imagining things, but no. That is a trap
+      door! Looks like it is possible to get out after all. You try to pull and push, but the trapdoor doesn't budge.
+
+  - id: 22
+    name: Forgotten Room
+    first-time-description: >
+      You are losing hope when suddenly, your eyes get blasted with a bright yellow shine. You almost don't believe it.
+      Are you hallucinating? You come closer and touch it. "This is it. That's it!"; your voice echoes through the vast
+      halls. In your hands, you are squeezing gold coins. You have found the treasure. But your excitement is
+      short-lived. After all, what are gold coins worth to a dead man? The gold is too much to carry; you put three
+      pouches in your backpack and set out to find the exit.
+    description: >
+      How lucky you found the treasure again, but you already took what you wanted. Finding the exit is more important
+      now.
+    items: [ "treasure" ]
+
+  - id: 23
+    name: Forgotten Room
+    description:
+      - You are in a small underground room surrounded by brick walls. Once in a while, you witness a water-drop fall
+        from the ceiling, forming small puddles on the concrete floor.
+      - This room looks familiar. Haven't you been here before?
+      - This room looks just like all the other ones. After all, you are in the catacombs.
+      - "\"I think I'm lost.\""
+
+  # Trap
+  - id: 24
+    name: Forgotten Room
+    description: >
+      While walking, you stumble on something. You look down and see a torn wire on your boot. Before even a single
+      thought, you hear a whistle in the air, then a hit. Still looking down, you see an arrow sticking out of your
+      gut. The shock quickly fades away, and you feel an intense pain. Your T-shirt soaks in blood, and you collapse on
+      the floor.
+    end: "loss"
+    achievement-id: 2
+
+  # Treasure - Draw
+  - id: 25
+    name: Forest
+    description: >
+      You've climbed up to a forest on the left of the castle. You express a deep sigh of relief and lay on the ground
+      to rest. You even shed a little tear of happiness. You may not have found the lost treasure, but you are alive,
+      and that's the only thing that matters to you.
+    end: "draw"
+    achievement-id: 3
+
+  # Treasure - Good ending
+  - id: 26
+    name: Forest
+    description: >
+      You've climbed up to a forest on the left of the castle. You can't help but shout at the top of your lungs -
+      "Woo!" Adrenaline flows through your veins, and you feel strong and proud. Not only you've made it out of
+      the catacombs alive, but you've also found the hidden gold. That must be your best day alive.
+    end: "win"
+    achievement-id: 4
+
+  - id: 28
+    name: West side
+    description: >
+      You're walking along the castle's west side when you spot a broken window. Although a bit of an unconventional
+      entrance, you could climb through.
+
+  - id: 29
+    name: Northwest corner
+    description: >
+      You're at the northwest corner of the castle near a little shed. Unlike the rest of the castle, the shed seems
+      new and in good condition. Maybe it was built by the archeologists to store tools and other equipment.
+
+  - id: 30
+    name: Forest
+    description: >
+      Convenience was never your cup of tea. So, you enter the castle from behind instead of taking the main road.
+      You're standing in a forest, looking ahead at the castle's stone wall. You still have to be careful tho, the
+      fallen leaves are slippery, and you wouldn't want to hike your way up again. Now that you think about it, this
+      option hasn't many pros, but at least you feel more like a ninja.
+    start: True
+
+  - id: 31
+    name: The Back
+    description: >
+      You're at the back of the castle. In front of you is a small wooden door, most likely used by servants not worthy
+      of front entrance. They didn't even bother with putting here a stone path.
+
+  - id: 32
+    name: Graveyard
+    description: >
+      You're at a small graveyard in the northeast corner. God knows who's buried down there. There are no
+      names or other texts. It could be the resting place of the king and his family, forever staying in their home, or
+      a mass grave of soldiers who defended the castle from attacks.
+
+  - id: 33
+    name: East side
+    description: >
+      The east side of the castle seems extended by a non-fitting room. Half of it is outside, and half of it is inside.
+
+  - id: 34
+    name: Southeast corner
+    description: >
+      The wall on the southeast corner has a watch tower. Even from here, you can see the impacts of the castle's siege.
+      The tower has dents and holes from the cannons.
+
+  - id: 35
+    name: Watch tower
+    description: >
+      It's starting to make sense why the tower is right here. The stationed soldiers must've had a clear view of the
+      main road and the valley below. The patch of forest around it is still bare to this day.
+
+  - id: 36
+    name: Shed
+    first-time-description: >
+      Unsurprisingly, the shed was almost empty. But a few remaining tools are lying around: a slightly bent shovel,
+      measuring tape, and a crowbar. You take the crowbar and put it in your backpack as it could help open closed
+      doors; it also happens to be the least damaged.
+    description: Nothing's new here. You already took the crowbar, and the other tools are unusable.
+    items: [ "crowbar" ]
+
+  - id: 37
+    name: Kitchen
+    description: >
+      This room must be the kitchen. The ash on the walls and the giant furnace reveal this room's purpose.
+      Given there's no chimney in sight, you wonder how many people caught lung cancer from this job. Not to mention
+      accidentally poisoning your liege or preparing a distasteful meal, giving you a one-way ticket to the dungeons.
+      Cooking for the king must have been pretty high-stakes.
+
+  - id: 38
+    name: Pantry
+    description: >
+      Given this room is right next to the kitchen, this must be the pantry. There isn't much equipment or furniture to
+      judge otherwise. The only thing left on the floor is empty sacks. They were likely filled with potatoes and other
+      vegetables, but they all rotted away.
+
+  - id: 39
+    name: Servants' quarters
+    description: >
+      Old wooden bunk beds - this has to be the servants' quarters. The wood is severely rotting, and an unpleasant
+      stench fills the room. One of the beds has even fallen apart. The room also has a table. On it, you find an
+      interesting document. It seems to be a sketch of portraits, with the last one circled and highlighted.
+
+  - id: 40
+    name: Hall
+    description: >
+      You find yourself in a tight hall connecting the rooms on the ground floor. The hall is quite monotone;
+      only the very end has a large hole in the ceiling. You walk through its whole length and consider all your
+      options before making your next decision.
+
+  - id: 41
+    name: Wine cellar
+    description: >
+      As soon as you descend, you notice a shift in temperature and humidity. You're in a small wine cellar. There are
+      3 barrels in the corner, and the shelf still has empty bottles.
+
+  - id: 42
+    name: Armory
+    description: >
+      Here is where all the army's equipment is stored. Most of it got looted, but some weapons are still lying around.
+      They even have some left-over siege equipment like ladders. You get lower and inspect some of the axes and swords.
+      The blades could come in handy, but they're already dull.
+
+  - id: 43
+    name: Barracks
+    description: >
+      The room is empty, apart from several bunk beds. I'd say this would be the servant's quarters, but the armory in
+      the next room lets me believe that this is the barracks.
+
+  - id: 44
+    name: Smithy
+    description: >
+      The smithy must be the most preserved room around. A furnace, tools, the anvil, and everything else is still
+      here. Even the individual items are in good condition. You use this opportunity to thoroughly inspect the room
+      and observe all its beauty.
+
+  - id: 45
+    name: Chapel
+    description: >
+      The chapel must have once been a beautiful place, but now, an empty altar and deteriorating paint on the walls
+      are all there's left. It's possible that this room once even had golden items, but it was all taken away. It's
+      sad to see theft impact such a sacred place.
+
+  - id: 46
+    name: First floor
+    description: You're on the first floor. The room is the same as the Entrance Hall, apart from the stairs going down.
+
+  - id: 47
+    name: Banquet Hall
+    first-time-description: >
+      A crystal chandelier hangs from the ceiling, and a large table stretches across the room. The view would be much
+      prettier without all the dust. A quick smear on the table sends clumps in the air. You cover your mouth and cough.
+      The draught from outside sets the chandelier swinging. It's a miracle that it still hangs; you better get going
+      before it falls on your head.
+    description: >
+      The chandelier is still dangling from the wind; better close the door.
+
+  - id: 48
+    name: Library
+    first-time-description: >
+      Three aisles of old books welcome you to the library. The castle's attackers nor the archeologists were too keen
+      on taking them. The besiegers would be disinterested, but why the archeologists? You take one of the volumes,
+      but it immediately crumbles in your hand. "Ewwww!" - the book is rotten from top to bottom and deteriorated.
+      But even after that, the library is a sight to behold.
+    description: >
+      You're back at the library. Books are beautiful, but you won't be picking any more up.
+
+  - id: 49
+    name: Alchemist's Tower
+    description: >
+      If you're not mistaken, this is the alchemist's tower. On the table are little pots and bottles for potions.
+      Right next to them is a crystal ball and two dice with a manual for predicting one's fate. Although badly damaged,
+      the paint on the wall looks like a star map. The view from the two tower's windows is spectacular. The room has
+      other interesting trinkets, but none of them look like any value.
+
+  - id: 50
+    name: Royal Bedroom
+    description: >
+      That will be the royal bedroom. The double bed still has silk sheets and curtains for an extra layer of privacy.
+      Both sides of the bed have bedside tables and a rug for comfort.
+
+  - id: 51
+    name: Throne room
+    first-time-description: >
+      You've arrived at your destination - the throne room. In front of you is a plain red carpet leading any incoming
+      visitors to the highest in the room. The throne has a beautiful green cushion and two smaller chairs for the
+      king's wife and child placed next to it. If there's any treasure to find, it's right here. You look under every
+      cranny, every chest, and cupboard, but you find nothing; what a disappointment! "There has to be something," you
+      exclaim angrily. Desperate, you even look for secret passages and hiding spots, but nothing. What if the legends
+      aren't true? After everything you've gone through, you're not giving up this easily; let's start over and look
+      around for clues.
+    description: >
+      You're back at the throne room, but there's nothing new. You're still not closer to finding the treasure.
+    call-after: discover_fake_throne_room
+
+  - id: 52
+    name: Council room
+    description: >
+      In the middle is a smaller circular table with six chairs and a rug of the same size under it. The whole room
+      felt noble with a minimalistic feel. On the wall were different posters ranging from laws to battle plans. One of
+      the posters caught your attention because it felt familiar. Yes, this is familiar! The poster shows the
+      architectural design of this castle, but something is off: the rooms seem shifted and in different places than
+      nowadays, weird.
+
+  - id: 53
+    name: Privy
+    description: >
+      You enter a tiny room and immediately recognize where you are; this is the privy. Here's where all the inhabitants
+      of this castle went to answer the call of nature. The small chamber is adorned with simple wooden fixtures,
+      providing a modicum of privacy for those seeking solitude. A few sheaves of dried herbs hang from the ceiling,
+      attempting to mask the inevitable odors. As you glance around, you notice crude drawings etched onto the walls,
+      perhaps left behind by bored castle occupants.
+
+  - id: 54
+    name: Ancestral Chamber
+    description: >
+      That is the first time you saw a human face after departing on your trip. You're in the Ancestral Hall - a room
+      filled with portraits of important people from the ruler's family. The test of time didn't favor these works of
+      art, but some still looked recognizable. The size and decor of the pictures varied widely based on the person's
+      status and importance. Unlanded men and women tend to have smaller pictures, while kings and dukes have grand
+      decorative portraits filled with signs of power, not like you can see any on the crumbling ones left here.
+
+  - id: 55
+    name: Secret Throne Room
+    description: >
+      You've made it! The room looks very similar to the throne room you discovered earlier, but for one key difference
+      - the throne has the crown and a golden apple right on it! You rush to look closer. You slowly lift the crown and
+      place it on your head. Just now, the implications of such discovery dawn on you - a crown like this must be worth
+      millions of dollars, not to mention the fame such a discovery would give you. You place the crown and apple in
+      your backpack and swiftly go to your car; it's time to head home.
+    end: "win"
+    achievement-id: 5
+
+  - id: 56
+    name: Hall
+    first-time-description: >
+      You're in a hall connecting the rooms on the first floor. Unlike the hall on the ground floor, this one has more
+      decor, featuring different ornaments and carvings. But that is not the only thing; the end of the hall has a
+      giant hole in the ground. That wouldn't be a problem, but at the end are some rooms you might need to explore.
+      At first, you think of jumping, but it's too dangerous; you'll need something to get across, like a ladder.
+    description: >
+      You're in a hall connecting the rooms on the first floor. Unlike the hall on the ground floor, this one has more
+      decor, featuring different ornaments and carvings.
+    call-after: create_ladder
+
+  - id: 57
+    name: Hall
+    description: You're at the back side of the hall.
+
+  - id: 58
+    name: Banquet Hall
+    description: >
+      Your delightful atmosphere is disrupted by glass clinking and a whistle in the air. Before you look up, your body
+      gets crushed and torn by the chandelier.
+    end: "loss"
+    achievement-id: 6
+
+paths:
+  # Dirt Road -> Main Entrance
+  - places: [ 0, 1 ]
+    name: Metal gate
+    description: Seeing that the metal gate is wide open, you walk right through and look around.
+    one-way: True
+    one-way-start: [ 0 ]
+
+  # Main Entrance -> Southwest corner
+  - places: [ 1, 27 ]
+    name: Go clockwise
+    description: You walk clockwise around the castle.
+    one-way: True
+    one-way-start: [ 1 ]
+
+  # Southwest corner -> Main Entrance
+  - places: [ 1, 27 ]
+    name: Go counter-clockwise
+    description: You walk counter-clockwise around the castle.
+    one-way: True
+    one-way-start: [ 27 ]
+
+  # Southwest corner -> The Dungeon
+  - places: [ 27, 2 ]
+    name: Stairs
+    description: >
+      You decide to carefully descent on the uneven stone stairs, trying not to slip as the stairs were still watery
+      after the rain.
+    one-way: True
+    one-way-start: [ 27 ]
+
+  # The Dungeon -> Southwest corner
+  - places: [ 2, 27 ]
+    name: Stairs
+    description: >
+      You decide that jumping is a stupid idea and carefully walk back up to the surface.
+    one-way: True
+    one-way-start: [ 2 ]
+
+  # The Dungeon -> Bottom of the Hole
+  - places: [ 2, 3, 4 ]
+    name: Jump down
+    description: >
+      You climb over the wooden fence and throw yourself into the dark abyss. You can feel your head and body piercing
+      through the air when you realize you've probably made a mistake. Knowing that you can't take your decision back,
+      you point your legs to the ground and pray to god for mercy. You scream your last swear as you're about to hit
+      the ground.
+    one-way: True
+    one-way-start: [ 2 ]
+
+  # Main Entrance - Entrance Hall
+  - places: [ 1, 5 ]
+    name: Large metal door
+    description: >
+      With the force of your whole body, you manage to push open the enormous door. A laud creak echos through
+      the hall.
+
+  # Main Entrance -> Courtyard
+  - places: [ 1, 6 ]
+    name: Go to Courtyard
+    description: >
+      You walk along a stone brick path. It's amazing how these things can last centuries and still be comfortable to
+      walk on.
+    one-way: True
+    one-way-start: [ 1 ]
+
+  # Courtyard -> Main Entrance
+  - places: [ 6, 1 ]
+    name: Go to Main Entrance
+    description: The stone tiles are still a bit wet from recent rains. You must be cautious.
+    one-way: True
+    one-way-start: [ 6 ]
+
+  # Courtyard -> Executioner's Gallows
+  - places: [ 6, 7 ]
+    name: Go to Executioner's Gallows
+    description: >
+      In the courtyard, you notice wooden gallows, still with a tied rope. You give it a blank stare for several
+      seconds before you get up. Every step on the old wooden stairs sends a loud screech through the forest. You feel
+      a weird sensation pulling you forward; it's almost like something is luring you in.
+    one-way: True
+    one-way-start: [ 6 ]
+
+  # Executioner's Gallows -> Executioner's Gallows
+  - places: [ 7, 7 ]
+    name: Go back
+    description: >
+      You realize what's happening and want to snap out, but you can't. Your mind wants to leave, but your body isn't
+      moving. You stand completely frozen in place. I guess there is no other choice.
+    one-way: True
+    one-way-start: [ 7 ]
+    disable-go-back: True
+
+  - places: [ 7, 8 ]
+    name: Hang yourself
+    description: >
+      You slowly walk up to the trap door. Your eyes are locked on the rope. ... You pull the lever. ...
+
+  # Bottom of the Hole -> Catacombs
+  - places: [ 4, 9 ]
+    name: Attempt escape
+    description: >
+      You tried to climb back up to the surface but to no avail. The bricks are slippery and don't stick out enough
+      for you to step on them. You run against the wall again, but this time, something interesting happens. You feel
+      like the bricks have moved. Are you crazy? You run against the wall again. Now, the bricks are
+      pushed even further into the wall. You repeatedly kick the wall until it collapses, revealing a secret passage.
+      Intrigued and eager to get out, you walk right through.
+    one-way: True
+    one-way-start: [ 4 ]
+
+  # Catacombs
+  - places: [ 9, 10 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 10, 11 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 11, 12 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 12, 13 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 9, 14 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 10, 15 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 11, 16 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 12, 18 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 14, 15 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 15, 17 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 17, 18 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 14, 20, 22, 19 ]
+    description: Looks like you've arrived at a literal catacomb intersection. But which way to go? There isn't a logical way to choose, so you pick randomly.
+  - places: [ 15, 20 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 18, 21 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 21, 24, 18 ]
+    description: The hall suddenly splits into two. Not knowing which one is better, you just pick one.
+  - places: [ 20, 23 ]
+    description:
+      - The halls are dead silent, you can hear every single step.
+      - You almost jump out of your skin; your flashlight just flickered. You stand frozen expecting darkness. Luckily, the flashlight still seems to work fine ... for now.
+      - The halls look all the same; how are you supposed to find a way out?!
+      - You've been walking for quite a while now; your legs are getting sore.
+      - ...
+  - places: [ 23, 22, 16 ]
+    description: >
+      The hall looks normal at first, but then it gets steep. The slope is now too much, and you slip. What was a
+      hall is now practically a slide. You drop your flashlight and can't see anything. Once the ride is over, you
+      pick up your things and continue. "That was wild," you think.
+    one-way: True
+    one-way-start: [ 23 ]
+
+  # Unknown room -> Forest (draw)
+  - places: [ 21, 25 ]
+    name: Escape
+    description: >
+      You lift your crowbar and start pushing. At first, it seems you won't make any progress, but after a while, the
+      trap door loosens. Approaching the end, you push with all your strength. Finally, the door opens, and falling
+      dirt covers your face. You rub your eyes, but quickly cover them again as the sunlight nearly blinds you after
+      hours underground.
+    required-items: [ "crowbar" ]
+    forbidden-items: [ "treasure" ]
+    items-hint: True
+
+  # Unknown room -> Forest (win)
+  - places: [ 21, 26 ]
+    name: Escape with the treasure
+    description: >
+      You lift your crowbar and start pushing. At first, it seems you won't make any progress, but after a while, the
+      trap door loosens. Approaching the end, you push with all your strength. Finally, the door opens, and falling
+      dirt covers your face. You rub your eyes, but quickly cover them again as the sunlight nearly blinds you after
+      hours underground.
+    required-items: [ "crowbar", "treasure" ]
+    items-hint: True
+
+  # Southwest corner -> West side
+  - places: [ 27, 28 ]
+    name: Go clockwise
+    description: >
+      While most of the castle's outside are just patches of grass, this side is different. The unusual amount of
+      flowers and the soil color show there once was a little garden. What is left of it today is almost unrecognizable.
+    one-way: True
+    one-way-start: [ 27 ]
+
+  # West side -> Southwest corner
+  - places: [ 27, 28 ]
+    name: Go counter-clockwise
+    description: >
+      While most of the castle's outside are just patches of grass, this side is different. The unusual amount of
+      flowers and the soil color show there once was a little garden. What is left of it today is almost unrecognizable.
+    one-way: True
+    one-way-start: [ 28 ]
+
+  # West side -> Northwest corner
+  - places: [ 28, 29 ]
+    name: Go clockwise
+    description: You walk clockwise around the castle.
+    one-way: True
+    one-way-start: [ 28 ]
+
+  # Northwest corner -> West side
+  - places: [ 28, 29 ]
+    name: Go counter-clockwise
+    description: You walk counter-clockwise around the castle.
+    one-way: True
+    one-way-start: [ 29 ]
+
+  # Northwest corner -> The Back
+  - places: [ 29, 31 ]
+    name: Go clockwise
+    description: You walk clockwise around the castle.
+    one-way: True
+    one-way-start: [ 29 ]
+
+  # The Back -> Northwest corner
+  - places: [ 29, 31 ]
+    name: Go counter-clockwise
+    description: You walk counter-clockwise around the castle.
+    one-way: True
+    one-way-start: [ 31 ]
+
+  # Forest -> The Back
+  - places: [ 30, 31 ]
+    name: Climb the wall
+    description: >
+      To your surprise, the wall isn't that tall. The stone bricks provide little stepping points, and you're quickly
+      on the other side.
+    one-way: True
+    one-way-start: [ 30 ]
+
+  # The Back -> Graveyard
+  - places: [ 31, 32 ]
+    name: Go to Graveyard
+    description: Even from far away, you recognize what is in front of you. You walk closer.
+    one-way: True
+    one-way-start: [ 31 ]
+
+  # Graveyard -> The Back
+  - places: [ 31, 32 ]
+    name: Go counter-clockwise
+    description: Staying long at a graveyard isn't your thing.
+    one-way: True
+    one-way-start: [ 32 ]
+
+  # Graveyard -> East side
+  - places: [ 32, 33 ]
+    name: Go clockwise
+    description: Staying long at a graveyard isn't your thing.
+    one-way: True
+    one-way-start: [ 32 ]
+
+  # East side -> Graveyard
+  - places: [ 32, 33 ]
+    name: Go to Graveyard
+    description: Even from far away, you recognize what is in front of you. You walk closer.
+    one-way: True
+    one-way-start: [ 33 ]
+
+  # East side -> Southeast corner
+  - places: [ 33, 34 ]
+    name: Go clockwise
+    description: You walk clockwise around the castle.
+    one-way: True
+    one-way-start: [ 33 ]
+
+  # Southeast corner -> East side
+  - places: [ 33, 34 ]
+    name: Go counter-clockwise
+    description: You walk counter-clockwise around the castle.
+    one-way: True
+    one-way-start: [ 34 ]
+
+  # Southeast corner -> Courtyard
+  - places: [ 34, 6 ]
+    name: Go to Courtyard
+    description: You immediately recognize the castle's courtyard and decide to go there.
+    one-way: True
+    one-way-start: [ 34 ]
+
+  # Courtyard -> Southeast corner
+  - places: [ 34, 6 ]
+    name: Go counter-clockwise
+    description: You walk counter-clockwise around the castle
+    one-way: True
+    one-way-start: [ 6 ]
+
+  # Courtyard -> Chapel
+  - places: [ 6, 45 ]
+    name: Go inside
+    description: You open the door and walk inside the chapel.
+    one-way: True
+    one-way-start: [ 6 ]
+
+  # Chapel -> Courtyard
+  - places: [ 6, 45 ]
+    name: Go outside
+    description: You open the door and walk back to the courtyard.
+    one-way: True
+    one-way-start: [ 45 ]
+
+  # Southeast corner -> Watch tower
+  - places: [ 34, 35 ]
+    name: Go inside
+    description: >
+      You open the tower's door and walk in. The tower's stairs are no longer what they used to be, but you
+      successfully make it to the top.
+    one-way: True
+    one-way-start: [ 34 ]
+
+  # Watch tower -> Southeast corner
+  - places: [ 34, 35 ]
+    name: Go outside
+    description: >
+      You're now a bit more experienced with the decaying stairs, but you still have to be careful to step in the
+      right places.
+    one-way: True
+    one-way-start: [ 35 ]
+
+  # Northwest corner - Shed
+  - places: [ 29, 36 ]
+    name: Door
+    description: You open the door.
+
+  # The Back - Servants' quarters
+  - places: [ 31, 39 ]
+    name: Servants' entrance
+    description: >
+      Like the peasants of the past, you squeeze through the tiny servants' door. Be careful not to hit your head.
+
+  # Servants' quarters - Pantry
+  - places: [ 39, 38 ]
+    name: Door
+    description: You open the door and walk through.
+
+  # Pantry - Kitchen
+  - places: [ 38, 37 ]
+    name: Door
+    description: You open the door and walk through.
+
+  # West side -> Kitchen
+  - places: [ 28, 37 ]
+    name: Window
+    description: You climb through the window. You have to be careful not to touch one of the glass shards.
+    one-way: True
+    one-way-start: [ 28 ]
+
+  # Kitchen - Entrance Hall
+  - places: [ 37, 5 ]
+    name: Door
+    description: You open the door and walk through.
+
+  # East side -> Armory
+  - places: [ 33, 42 ]
+    name: Go inside
+    description: You open the door and walk inside.
+    one-way: True
+    one-way-start: [ 33 ]
+
+  # Armory -> East side
+  - places: [ 33, 42 ]
+    name: Go outside
+    description: You open the door and walk outside.
+    one-way: True
+    one-way-start: [ 42 ]
+
+  # Armory - Barracks
+  - places: [ 42, 43 ]
+    name: Door
+    description: You open the door and walk through.
+
+  # Hall -> Wine cellar
+  - places: [ 40, 41 ]
+    name: Stairs
+    description: You take the spiral stairs underground.
+    one-way: True
+    one-way-start: [ 40 ]
+
+  # Wine cellar -> Hall
+  - places: [ 40, 41 ]
+    name: Stairs
+    description: You go back up.
+    one-way: True
+    one-way-start: [ 41 ]
+
+  # Hall -> Servants' quarters
+  - places: [ 40, 39 ]
+    name: First door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [40]
+
+  # Servants' quarters -> Hall
+  - places: [ 40, 39 ]
+    name: Door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 39 ]
+
+  # Hall -> Armory
+  - places: [ 40, 42 ]
+    name: Second door
+    description: The door sends out a loud creek. No one used it in a while.
+    one-way: True
+    one-way-start: [ 40 ]
+
+  # Armory -> Hall
+  - places: [ 40, 42 ]
+    name: Door
+    description: The door sends out a loud creek. No one used it in a while.
+    one-way: True
+    one-way-start: [ 42 ]
+
+  # Hall -> Smithy
+  - places: [ 40, 44 ]
+    name: Third door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 40 ]
+
+  # Smithy -> Hall
+  - places: [ 40, 44 ]
+    name: Door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 44 ]
+
+  # Hall -> Entrance Hall
+  - places: [ 40, 5 ]
+    name: Fourth door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 40 ]
+
+  # Entrance Hall -> Hall
+  - places: [ 40, 5 ]
+    name: Door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 5 ]
+
+  # Entrance Hall - First floor
+  - places: [ 5, 46 ]
+    name: Stairs
+    description: >
+      The stairs are wide with rich curves on the railing, almost like a fairy tale. It's a relief to walk here on
+      something this comfortable.
+
+  # First floor - Banquet Hall
+  - places: [ 46, 47 ]
+    name: Door
+    description: >
+      You open the door and walk through. Although it's still wooden, it looks more presentable than the rest.
+
+  # First floor -> Hall
+  - places: [ 46, 56 ]
+    name: Door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 46 ]
+
+  # Library -> Hall
+  - places: [ 48, 56 ]
+    name: Door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 48 ]
+
+  # Library - Alchemist's Tower
+  - places: [ 48, 49 ]
+    name: Stairs
+    description: >
+      You journey through a long spiral staircase. With each step, the end seems at reach, but it's almost like new
+      stairs appear out of thin air. Who knew you'd get free cardio with the trip? For fun, you start counting the
+      stairs: 1, 2, 3, 4, ...
+
+  # Throne room - Royal Bedroom
+  - places: [ 51, 50 ]
+    name: Door
+    description: >
+      Out of all the doors in this castle, this one seems the most beautiful. Rich decors and markings signify a room of
+      high importance.
+
+  # Throne room - Hall
+  - places: [ 51, 57 ]
+    name: Passage
+    description: These rooms don't have a door between them, just a narrow passage.
+
+  # Council room - Hall
+  - places: [ 52, 57 ]
+    name: Door
+    description: You open the door and walk through.
+
+  # Privy -> Hall
+  - places: [ 53, 56 ]
+    name: Door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 53 ]
+
+  # Ancestral Chamber -> Hall
+  - places: [ 54, 56 ]
+    name: Door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 54 ]
+
+  # Hall -> First floor
+  - places: [ 46, 56 ]
+    name: First door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 56 ]
+
+  # Hall -> Library
+  - places: [ 48, 56 ]
+    name: Second door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 56 ]
+
+  # Hall -> Privy
+  - places: [ 53, 56 ]
+    name: Third door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 56 ]
+
+  # Hall -> Ancestral Chamber
+  - places: [ 54, 56 ]
+    name: Fourth door
+    description: You open the door and walk through.
+    one-way: True
+    one-way-start: [ 56 ]
+
+  # Hall - Hall
+  - places: [ 56, 57 ]
+    name: Walk across
+    first-time-description: >
+      You place the ladder on the two ends to form a bridge. The ladder is god knows how old, yet you now trust it with
+      your life. You slowly, step-by-step, walk across, not to accidentally miss and fall.
+    description: >
+      You've already used the ladder and got some practice, but moving across is still challenging.
+    required-items: ["ladder"]
+
+  - places: [ 47, 58 ]
+    name: Sit at the table
+    description: You sit at the table and imagine yourself as a high king enjoying a feast.
+    disable-go-back: True
+
+  - places: [ 45, 45 ]
+    name: Pray
+    description: You take a moment to kneel and pray to god for health and good luck.
+    disable-go-back: True
+
+  - places: [ 50, 50 ]
+    name: Lay in bed
+    description: >
+      Exploring a castle is a tough journey. It is only fair you take a break. The fact that it is in the king's bed
+      is unrelated.
+    disable-go-back: True
+
+  - places: [ 51, 51 ]
+    name: Sit at the throne
+    description: >
+      The temptation is too big; you walk up to the throne and sit on it. Although it feels nice for a while, you won't
+      find the treasure like this; it is time to move on.
+    disable-go-back: True
+
+  - places: [ 44, 44 ]
+    name: Search for items
+    description: >
+      "The smithy has a lot of tools. Maybe some of them are worth taking," you think. But after the search, nothing
+      seems useful for your current situation.
+    disable-go-back: True
+
+actions:
+  - name: "Sit and ponder"
+    places: [ 35 ]
+    function: sit_and_ponder
+
+  - name: "Drink wine"
+    places: [ 41 ]
+    function: drink_wine
+
+achievements:
+  - id: 0
+    name: Oops!
+    description: Get convinced by an evil spirit to take your life.
+
+  - id: 1
+    name: Deep underground
+    description: Discover the catacombs.
+
+  - id: 2
+    name: Traps and Infinite rooms
+    description: Die in the catacombs.
+
+  - id: 3
+    name: At least I'm alive
+    description: Escape the catacombs empty handed.
+
+  - id: 4
+    name: Rich
+    description: Escape the catacombs with gold and gems.
+
+  - id: 5
+    name: Glory to the King
+    description: Find the secret throne room with the crown.
+
+  - id: 6
+    name: Told ya
+    description: Ignore the narrator and get crushed under the chandelier.
+
+  - id: 7
+    name: Alcoholic
+    description: Attempt to drink wine 3 times.

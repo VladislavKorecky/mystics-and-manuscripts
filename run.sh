@@ -1,0 +1,1 @@
+python3 -m mystics_and_manuscripts.main
