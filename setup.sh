@@ -4,4 +4,4 @@
 # see: https://stackoverflow.com/a/29710607/16343968
 cd -- "$(dirname "$BASH_SOURCE")"
 
-python3 -m mystics_and_manuscripts.main || python -m mystics_and_manuscripts.main
+python3 -m pip install -r requirements.txt || python -m pip install -r requirements.txt
