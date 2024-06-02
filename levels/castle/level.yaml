@@ -828,7 +828,7 @@ paths:
   # Courtyard -> Southeast corner
   - places: [ 34, 6 ]
     name: Go counter-clockwise
-    description: You walk counter-clockwise around the castle
+    description: You walk counter-clockwise around the castle.
     one-way: True
     one-way-start: [ 6 ]
 
@@ -1118,15 +1118,15 @@ paths:
     name: Search for items
     description: >
       "The smithy has a lot of tools. Maybe some of them are worth taking," you think. But after the search, nothing
-      seems useful for your current situation.
+      seems useful in your current situation.
     disable-go-back: True
 
 actions:
-  - name: "Sit and ponder"
+  - name: Sit and ponder
     places: [ 35 ]
     function: sit_and_ponder
 
-  - name: "Drink wine"
+  - name: Drink wine
     places: [ 41 ]
     function: drink_wine
 

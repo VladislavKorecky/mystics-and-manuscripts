@@ -186,7 +186,7 @@ class Game:
             return False
 
         if path.items_hint:
-            Game.add_hint_message(path, required_items, hints, "Missing")
+            Game.add_hint_message(path, remaining_required_items, hints, "Missing")
 
         return True
 
@@ -209,7 +209,7 @@ class Game:
             return False
 
         if path.items_hint:
-            Game.add_hint_message(path, forbidden_items, hints, "Can't have")
+            Game.add_hint_message(path, owned_forbidden_items, hints, "Can't have")
 
         return True
 
